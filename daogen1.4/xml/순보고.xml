@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<table name="순보고"  schema="sungdo_user" class="순보고">
+<description></description>
+<columns>
+<column name="날짜" type="String" dbType="varchar(8)" desc="" notnull="true" primarykey="true" />
+<column name="년도" type="String" dbType="char(4)" desc="" notnull="true" primarykey="true" />
+<column name="교구순코드" type="String" dbType="char(6)" desc="" notnull="true" primarykey="true" />
+<column name="모인곳" type="String" dbType="varchar(20)" desc="" notnull="false" />
+<column name="모인수" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="총출석" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="애독" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="성미" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="예배" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="공부" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="전도" type="Integer" dbType="number(10)" desc="" notnull="false" />
+<column name="헌금" type="BigDecimal" dbType="number(19.4)" desc="" notnull="false" />
+<column name="구두보고" type="String" dbType="varchar(1)" desc="" notnull="false" />
+</columns>
+</table>

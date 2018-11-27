@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/w3c.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/xalan.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/xalan-2.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/xalanj1compat.jar"/>
+	<classpathentry kind="lib" path="C:/workspace-framework/daogen1.4/lib/xerces-1.2.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
