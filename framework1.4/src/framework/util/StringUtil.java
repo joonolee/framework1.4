@@ -329,7 +329,7 @@ public class StringUtil {
 			rval = str;
 		return rval;
 	}
-	
+
 	/**
 	 * 첫번째 인자에 해당하는 스트링이 null이면 두번째 인자의 값을 반환하는 함수
 	 * 
@@ -461,8 +461,7 @@ public class StringUtil {
 		int default_interval = 1;
 		return isNew(regday, default_interval);
 	}
-	
-	
+
 	/**
 	 * 인자에 해당하는 날짜와 현재 날짜의 간격이 interval에 포함되면 true, 포함되지 않으면 false를 반환하는 함수
 	 * 

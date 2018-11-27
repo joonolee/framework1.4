@@ -266,7 +266,7 @@ public class Box extends Hashtable {
 		formatter.format(new java.util.Date());
 		return Timestamp.valueOf(str + " " + formatter.format(new java.util.Date()));
 	}
-	
+
 	/** 
 	 * Box 객체가 가지고 있는 값들을 화면 출력을 위해 문자열로 변환한다.
 	 * 
@@ -323,7 +323,7 @@ public class Box extends Hashtable {
 		buf.append("}");
 		return "Box[" + _name + "]=" + buf.toString();
 	}
-	
+
 	/** 
 	 * Box 객체가 가지고 있는 값들을 쿼리 스트링으로 변환한다.
 	 * 
@@ -362,7 +362,7 @@ public class Box extends Hashtable {
 		}
 		return buf.toString();
 	}
-	
+
 	/** 
 	 * Box 객체가 가지고 있는 값들을 Xml로 변환한다.
 	 * 
@@ -411,7 +411,7 @@ public class Box extends Hashtable {
 		buf.append("</items>");
 		return buf.toString();
 	}
-	
+
 	/** 
 	 * Box 객체가 가지고 있는 값들을 Json 표기법으로 변환한다.
 	 * 
@@ -468,7 +468,7 @@ public class Box extends Hashtable {
 		buf.append("}");
 		return buf.toString();
 	}
-	
+
 	/**
 	 * 자바스크립트상에 특수하게 인식되는 문자들을 JSON등에 사용하기 위해 변환하여준다.
 	 * 

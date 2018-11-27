@@ -52,7 +52,7 @@ public class ConnectionManager {
 		_stmtList.add(pstmt);
 		return pstmt;
 	}
-	
+
 	public SQLBatchPreparedStatement createBatchPrepareStatement(String sql) throws SQLException {
 		SQLBatchPreparedStatement pstmt = new SQLBatchPreparedStatement(sql, this, _caller);
 		_stmtList.add(pstmt);
@@ -64,7 +64,7 @@ public class ConnectionManager {
 		_stmtList.add(stmt);
 		return createStatement(null);
 	}
-	
+
 	public SQLBatchStatement createBatchStatement() throws SQLException {
 		SQLBatchStatement stmt = new SQLBatchStatement(this, _caller);
 		return stmt;

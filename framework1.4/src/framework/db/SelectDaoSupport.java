@@ -46,7 +46,7 @@ public class SelectDaoSupport {
 	protected Log getLogger() {
 		return SelectDaoSupport._logger;
 	}
-	
+
 	private RecordSet prepardSelect(String query, Object[] where, int currPage, int pageSize) throws SQLException {
 		SQLPreparedStatement pstmt = new SQLPreparedStatement(query, _connMgr, this);
 		pstmt.set(where);

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/j2re1.4.2"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/commons-fileupload-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/commons-io-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/commons-logging-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/gauce4014.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/jstl.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/log4j-1.2.14.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/miplatform-3.2.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/ojdbc14.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/sqljdbc.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/standard.jar"/>
-	<classpathentry kind="lib" path="C:/workspace-framework/framework1.4/lib/velocity-dep-1.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/gauce4014.jar"/>
+	<classpathentry kind="lib" path="lib/jstl.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/miplatform-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="lib/standard.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-dep-1.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

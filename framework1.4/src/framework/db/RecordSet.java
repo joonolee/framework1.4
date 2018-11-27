@@ -33,7 +33,8 @@ public class RecordSet implements Serializable {
 	private ArrayList _rows = new ArrayList();
 	private int _currow = 0;
 
-	RecordSet() {};
+	RecordSet() {
+	};
 
 	/**
 	 * RecordSet의 생성자
@@ -77,7 +78,7 @@ public class RecordSet implements Serializable {
 		rs.setFetchSize(100);
 		int num = 0;
 		while (rs.next()) {
-			
+
 			// 현재 Row 저장 객체
 			Map columns = new HashMap(count);
 			num++;
@@ -173,7 +174,7 @@ public class RecordSet implements Serializable {
 		}
 		return _rows.size();
 	}
-	
+
 	/**
 	 * 현재 참조하고 있는 row의 위치를 구한다.
 	 * 
@@ -638,7 +639,7 @@ public class RecordSet implements Serializable {
 			return false;
 		}
 	}
-	
+
 	/**
 	 * 이터레이터를 반환한다.
 	 */

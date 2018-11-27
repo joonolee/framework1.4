@@ -20,7 +20,7 @@ import framework.action.Box;
 /**
  * Velocity를 이용한 템플릿 처리 라이브러리
  */
-public class VelocityUtil {	
+public class VelocityUtil {
 	/**
 	 * action.properties 파일에 설정된 key와 연결된 템플릿 파일에서 statement에 정의된 COMMAND의 문자열을 파라미터를 
 	 * 적용한 문자열을 생성한다.
@@ -39,7 +39,7 @@ public class VelocityUtil {
 		context.put("COMMAND", statement);
 		context.put("PARAM", param);
 		context.put("UTIL", new StringUtil());
-		
+
 		ResourceBundle bundle = (ResourceBundle) servlet.getServletContext().getAttribute("action-mapping");
 		String fileName = ((String) bundle.getObject(key)).trim();
 		StringWriter writer = new StringWriter();
@@ -48,16 +48,16 @@ public class VelocityUtil {
 		Velocity.evaluate(context, writer, "framework.util.VelocityUtil", reader);
 		return writer.toString();
 	}
-	
+
 	/**
 	 * 템플릿파일을 읽어들인다.
 	 * @throws IOException 
 	 */
-    private static String readTemplate(HttpServlet servlet, String fileName) throws IOException {
-    	String pathFile = servlet.getServletContext().getRealPath(fileName);
+	private static String readTemplate(HttpServlet servlet, String fileName) throws IOException {
+		String pathFile = servlet.getServletContext().getRealPath(fileName);
 		return read(pathFile);
 	}
-	
+
 	/** 
 	 * 파일의 path를 가지 파일명으로 파일 내용 읽어서 String으로 리턴한다 
 	 * @throws IOException 

@@ -1,4 +1,4 @@
-/* 
+/*
  * @(#)ValueObjectArray.java
  * 테이블의 값을 담는 VO의 배열 클래스
  */
@@ -39,12 +39,10 @@ public class ValueObjectArray {
 		if (size() == 0) {
 			return null;
 		}
-		int cnt = 0;
 		List list = new ArrayList();
 		Iterator key = _voMap.keySet().iterator();
 		String keyStr = "";
 		while (key.hasNext()) {
-			cnt++;
 			keyStr = (String) key.next();
 			if ((keyStr).substring(0, 2).equals(type)) {
 				list.add(_voMap.get(keyStr));

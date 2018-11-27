@@ -1,5 +1,6 @@
+
 /*
- * @(#)CreateXMLFile.java
+ * @(#)CreateOracleXMLFile.java
  * DAO, VO »ý¼º¿¡ ÇÊ¿äÇÑ ¸ÞÅ¸Á¤º¸ xml ÆÄÀÏÀ» ÃßÃâ
  */
 import java.io.BufferedWriter;
@@ -16,13 +17,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class CreateOracleXMLFile {
-	private static final String _jdbcDriver = "oracle.jdbc.driver.OracleDriver";
-	private static final String _jdbcUrl = "jdbc:oracle:thin:@192.1.20.1:1521:ORA8";
-	private static final String _jdbcUid = "rims";
-	private static final String _jdbcPw = "rimspassword";
-	private static String[] _tableNameList = new String[] {
-		"COM_MEMBER"
-	};
+	private static final String _jdbcDriver = "";
+	private static final String _jdbcUrl = "";
+	private static final String _jdbcUid = "";
+	private static final String _jdbcPw = "";
+	private static String[] _tableNameList = new String[] {};
 	private static String _filePath = "xml";
 
 	public static void main(String[] args) throws Exception {
@@ -126,7 +125,7 @@ public class CreateOracleXMLFile {
 			if (meta.getColumnName(c).equals("ENTERID") || meta.getColumnName(c).equals("ENTERNAME") || meta.getColumnName(c).equals("ENTERPGM")) {
 				str.append(" update=\"none\"");
 			}
-			// ÀÔ·ÂÀÏ, ¼öÁ¤ÀÏ¿¡ ´ëÇÑ º°µµ Ã³¸®
+			// ï¿½Ô·ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
 			if (meta.getColumnName(c).equals("ENTERDATE")) {
 				str.append(" insert=\"SYSDATE\" update=\"none\"");
 			}
